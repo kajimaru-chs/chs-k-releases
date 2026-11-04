@@ -17,17 +17,14 @@ Open a release and expand **Assets**. Download the `.w3x` map, not GitHub's
 automatically generated **Source code** archives, which contain only these
 download documents.
 
-## Choose the right map
+## Install the map
 
-| Variant | Intended use |
-| --- | --- |
-| Normal `.w3x` | Regular matches; use an official release for public hosting |
-| `Internal Test.w3x` | Testing only: starts with 1,000,000 gold and lumber; `-resources` refills both |
+Each public release contains only the normal `.w3x` map. Internal Test maps are
+kept private and are never distributed here.
 
 Put approved official maps in `Warcraft III/Maps/Download`. Keep normal candidates
-in `Download/Game Builds` and testing variants in `Download/Internal Tests`.
-Prereleases are candidates, not an announcement of completed online validation.
-SHA-256 checksums accompany each release.
+in `Download/Game Builds`. Prereleases are candidates, not an announcement of
+completed online validation. Use an official release for public hosting.
 
 Target graphics modes are Classic, Reforged/HD, and Definitive Edition in the
 current Warcraft III client. Immediate online disconnections have been reported
