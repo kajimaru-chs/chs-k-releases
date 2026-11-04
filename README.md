@@ -10,7 +10,7 @@ Created by **Kajimaru, YakumoRan, ZiHeLL, and Aduxxor**.
 **[Download the map](https://kajimaru-chs.github.io/chs-k-releases/)**
 
 The K Edition website provides direct map downloads and full changelogs for
-**official releases only**. K1.0.2 is the current official release; K1.0.1 and
+**official releases only**. K1.0.3 is the current official release; K1.0.2, K1.0.1 and
 K1.0 remain available as previous releases.
 
 ## Install the map
@@ -24,7 +24,7 @@ completed online validation. Use an official release for public hosting.
 
 Target graphics modes are Classic, Reforged/HD, and Definitive Edition in the
 current Warcraft III client. Immediate online disconnections have been reported
-and remain under investigation. K1.0.2 addresses Summon Tech purchases; it does
+and remain under investigation. K1.0.3 restores craft and mode announcements; it does
 not claim to resolve those disconnections.
 
 ## Report a problem
