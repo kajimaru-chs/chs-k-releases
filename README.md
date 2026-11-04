@@ -7,15 +7,15 @@ Created by **Kajimaru, YakumoRan, ZiHeLL, and Aduxxor**.
 
 ## Downloads
 
-**[Browse all releases](https://github.com/kajimaru-chs/chs-k-releases/releases)**
+**[Download the map](https://kajimaru-chs.github.io/chs-k-releases/)**
 
-- [K1.0.1](https://github.com/kajimaru-chs/chs-k-releases/releases/tag/K1.0.1): current official distribution.
-- [K1.0.2](https://github.com/kajimaru-chs/chs-k-releases/releases/tag/K1.0.2): candidate with special Summon Tech fixes; in-game validation pending.
-- [K1.0](https://github.com/kajimaru-chs/chs-k-releases/releases/tag/K1.0): preserved milestone.
+The K Edition website provides direct map downloads and full changelogs for
+**official releases only**. K1.0.2 is the current official release; K1.0.1 and
+K1.0 remain available as previous releases.
 
-Open a release and expand **Assets**. Download the `.w3x` map, not GitHub's
-automatically generated **Source code** archives, which contain only these
-download documents.
+[Browse GitHub releases](https://github.com/kajimaru-chs/chs-k-releases/releases)
+for the complete archive, including any future release candidates. GitHub's
+**Source code** archives contain public documentation and website files only.
 
 ## Install the map
 
@@ -33,10 +33,17 @@ not claim to resolve those disconnections.
 
 ## About this repository
 
-This public repository hosts downloads and English changelogs. Development code
+This public repository hosts the download website and English changelogs. Development code
 and history are maintained in a separate private repository. The project is not
 being published as open source through this repository.
 
 When reporting a problem, include the exact map version and variant, what happened,
 and the steps that led to it. Replays can help distinguish gameplay issues from
 connection failures.
+
+## Website maintenance
+
+GitHub Pages publishes the `docs/` directory from `main`. The static site uses
+release asset URLs directly and requires no account, scripts, or cookies to download.
+Regenerate it after publishing or promoting an official release. Prereleases must
+never appear on the website. Release assets must remain limited to the normal map.

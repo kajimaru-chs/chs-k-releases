@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#071519">
+  <meta name="description" content="Custom Hero Survival — K Edition for Warcraft III. Download the map directly and explore the latest changelogs.">
+  <meta property="og:title" content="Custom Hero Survival — K Edition">
+  <meta property="og:description" content="Forge your hero. Survive the waves. Outlast your rivals. Official downloads and changelogs.">
+  <meta property="og:image" content="https://kajimaru-chs.github.io/chs-k-releases/assets/k-edition.png">
+  <link rel="canonical" href="https://kajimaru-chs.github.io/chs-k-releases/">
+  <link rel="stylesheet" href="styles.css">
+  <title>Custom Hero Survival — K Edition</title>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="masthead wrap" id="top">
+    <a class="brand" href="#" aria-label="Custom Hero Survival home"><span class="crest" aria-hidden="true">K</span><span>CUSTOM HERO SURVIVAL<small>K EDITION</small></span></a>
+    <nav aria-label="Main navigation"><a href="#downloads">Downloads</a><a href="#changelogs">Changelogs</a><a href="#installation">How to play</a></nav>
+  </header>
+  <main id="main">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span aria-hidden="true">✦</span> A WARCRAFT III CUSTOM MAP</p>
+        <h1 id="hero-title">Custom Hero<br><span>Survival</span></h1>
+        <p class="edition"><span></span>K EDITION<span></span></p>
+        <p class="intro">Forge your hero with powerful skills and crafted items, battle relentless enemy waves, and outlast your rivals.</p>
+        <div class="hero-action" id="downloads">
+          <p class="release-label"><span class="status-dot"></span> Current official release · K1.0.2</p>
+          <a class="button primary" href="https://github.com/kajimaru-chs/chs-k-releases/releases/download/K1.0.2/Custom.Hero.Survival.K1.0.2.Z2.6.M9.18.w3x">Download K1.0.2 <span aria-hidden="true">↓</span></a>
+          <p class="file-note">Warcraft III map <span>·</span> .w3x <span>·</span> 3.42 MiB <span>·</span> Direct download</p>
+          <a class="text-link" href="#release-K1.0.2">See what changed <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <div class="hero-art"><img src="assets/k-edition.png" width="1254" height="1254" alt="K Edition artwork: a glowing golden crown above a crossed sword and violet staff in a torchlit arena." fetchpriority="high"><span class="art-caption">FORGE. SURVIVE. PREVAIL.</span></div>
+    </section>
+    <div class="rune-divider wrap" aria-hidden="true"><span>✦</span></div>
+    <section class="archive wrap" id="changelogs" aria-labelledby="archive-title">
+      <div class="section-heading"><div><p class="eyebrow">THE ARMORY</p><h2 id="archive-title">Downloads &amp; changelogs</h2></div><p>Choose your build.<br>Know what changed.</p></div>
+      <div class="release-list"><article class="release-card current" id="release-K1.0.2">
+  <div class="release-top"><div><div class="release-title"><h3>K1.0.2</h3><span class="badge">Current official</span></div><p class="release-description">Fix special Summon Tech purchases that consumed lumber without applying research and could be bought indefinitely.</p></div>
+  <div class="release-download"><a class="button secondary" href="https://github.com/kajimaru-chs/chs-k-releases/releases/download/K1.0.2/Custom.Hero.Survival.K1.0.2.Z2.6.M9.18.w3x">Download K1.0.2 <span aria-hidden="true">↓</span></a><p class="file-note">.w3x · 3.42 MiB</p></div></div>
+  <details><summary>Read changelog <span class="sr-only">for K1.0.2</span></summary><div class="changelog"><p>Fix special Summon Tech purchases that consumed lumber without applying research and could be bought indefinitely.</p>
+<ul><li>Restore native research for Evasion, Slow Poison, Hardened Skin, Elune&#x27;s Grace, Critical Strike, and Magic Attack.</li><li>Each upgrade costs 10 lumber and stops at level 10. Purchases at the cap refund the lumber and show the original 18k maximum-level message.</li><li>Apply the original native summon ability bindings, including the existing unit-specific exceptions. Judgement&#x27;s Crusader keeps its original critical/evasion exceptions.</li><li>Preserve current shop availability, Summon Attack/Defense Tech, and Mage Tech.</li><li>Refresh the lobby description with creator credits, a new map summary, and the themed download website. Tripled <code>|n</code> separators space the sections.</li><li>Launch the K Edition download website with direct normal-map downloads and full changelogs. The website lists official releases only.</li></ul>
+<p>The preview, loading layout, terrain, and other gameplay are unchanged. This is not a fix for the unresolved immediate online-disconnection reports.</p>
+<h4>Downloads and validation</h4>
+<p>The only public release asset is the normal <code>.w3x</code> map.</p>
+<p>14 focused automated tests passed, including 78 purchase comparisons against 18k, cap refunds, player isolation, native-research failure handling, and Magic Attack proc checks. Both maps passed JASS compilation and full archive readback. Package audits confirm the expected code and metadata changes and unchanged native objects, terrain, and preview assets.</p>
+<p>Promoted to an official release with the maintainer&#x27;s approval. Download the normal map at https://kajimaru-chs.github.io/chs-k-releases/ and place it in <code>Maps/Download</code>. Automated verification does not replace full in-game testing.</p>
+<p>Normal map SHA-256: <code>a4e2d6c5a2d41e3ba234f1f78922abd3506df941b1d8a52c2e3b67422cb7229d</code>.</p></div></details>
+</article>
+<article class="release-card previous" id="release-K1.0.1">
+  <div class="release-top"><div><div class="release-title"><h3>K1.0.1</h3><span class="badge">Previous release</span></div><p class="release-description">Keyboard focus, PvP return recovery, and tooltip improvements.</p></div>
+  <div class="release-download"><a class="button secondary" href="https://github.com/kajimaru-chs/chs-k-releases/releases/download/K1.0.1/Custom.Hero.Survival.K1.0.1.Z2.6.M9.18.w3x">Download K1.0.1 <span aria-hidden="true">↓</span></a><p class="file-note">.w3x · 3.42 MiB</p></div></div>
+  <details><summary>Read changelog <span class="sr-only">for K1.0.1</span></summary><div class="changelog"><p>Keyboard focus, PvP return recovery, and tooltip improvements.</p>
+<ul><li>Release keyboard focus after using gold, lumber, or Sell All buttons. This addresses Enter and double-F1 input becoming unresponsive until clicking the terrain.</li><li>Restore full health and mana when eligible heroes return from PvP to the shops, after inventory restoration and once after combat cleanup adjusts maximum values. No recurring healing timer is added.</li><li>Xyn Kaif&#x27;s degeneration remains unchanged and can consume health after recovery.</li><li>Remove the redundant cooldown sentence from Caff&#x27;s item and recipe descriptions; retain the lost-essence and silence messages.</li><li>Use the same red-to-violet gradient for all 12 Cursed labels. Item names use two endpoints: lilac to violet for K&#x27;Ajim Aru, electric blue to gold for Caff&#x27;s Scepter.</li><li>Correct Summon Attack and Defense Tech descriptions to show a maximum of 200. Purchases, farming, and cap refunds already used this limit.</li></ul>
+<p>The preview, terrain, loading layout, and gameplay outside these changes are preserved.</p>
+<h4>Downloads and validation</h4>
+<p>The only public release asset is the normal <code>.w3x</code> map.</p>
+<p>35 focused HUD, selling, round, and PvP tests passed, alongside a focused Summon Tech cap/refund test. Both maps passed JASS compilation, full archive readback, and a package comparison against K1.0. Full engine validation remains separate.</p>
+<p>Immediate online disconnections have been reported and remain under investigation; their cause has not been established.</p>
+<p>Normal map SHA-256: <code>2aec9f167a31c2ba97e40b1ac1592244d6c8f5d5372db3f90ff6d1b4dd964fa5</code>.</p></div></details>
+</article>
+<article class="release-card previous" id="release-K1.0">
+  <div class="release-top"><div><div class="release-title"><h3>K1.0</h3><span class="badge">Previous release</span></div><p class="release-description">Preserved K Edition development milestone, released on November 3, 2026.</p></div>
+  <div class="release-download"><a class="button secondary" href="https://github.com/kajimaru-chs/chs-k-releases/releases/download/K1.0/Custom.Hero.Survival.K1.0.Z2.6.M9.18.w3x">Download K1.0 <span aria-hidden="true">↓</span></a><p class="file-note">.w3x · 3.42 MiB</p></div></div>
+  <details><summary>Read changelog <span class="sr-only">for K1.0</span></summary><div class="changelog"><p>Preserved K Edition development milestone, released on November 3, 2026.</p>
+<ul><li>Modular implementation with the original 18k map as the behavior reference.</li><li>Creep Rage supports Isolated, Shared, and Disabled. Disabled removes Greed purchases.</li><li>Caff stores up to 15 charges. Unused charges cause 0.5 seconds of silence each on expiration; pending effects are cleared at wave end.</li><li>Reusable K Edition lobby preview. The original gameplay minimap is restored once during initialization, with no recurring preview timer.</li><li>Original 18k terrain and the approved loading layout and credits are preserved.</li><li>Summon Tech and Mage Tech retain their current initial availability.</li></ul>
+<h4>Downloads and validation</h4>
+<p>The only public release asset is the normal <code>.w3x</code> map.</p>
+<p>60 focused automated tests passed, including 288 differential damage comparisons. JASS compilation and full archive readback passed for both maps. The preview audit verified the original minimap restoration and single initialization call. Automated checks do not certify full-match or multiplayer stability.</p>
+<p>Normal map SHA-256: <code>b14990f15ff539e64ff6e2b2322ab08577ae9fd308fad002c7249e76d7e71394</code>.</p></div></details>
+</article></div>
+    </section>
+    <section class="installation wrap" id="installation" aria-labelledby="installation-title">
+      <p class="eyebrow">READY TO PLAY</p><h2 id="installation-title">Into the arena.</h2>
+      <ol class="steps">
+        <li><span class="step-number">01</span><h3>Choose your build</h3><p>Download the current official release. Every build listed here is an official release.</p></li>
+        <li><span class="step-number">02</span><h3>Add the map</h3><p>Place the official <code>.w3x</code> file in your Warcraft III <code>Maps/Download</code> folder.</p></li>
+        <li><span class="step-number">03</span><h3>Make it your game</h3><p>Open Custom Games in Warcraft III, select the map, and bring your next hero to life.</p></li>
+      </ol>
+    </section>
+  </main>
+  <footer class="wrap"><div class="footer-title">CUSTOM HERO SURVIVAL <span>— K EDITION</span></div><p>Created by Kajimaru, YakumoRan, ZiHeLL, and Aduxxor.</p><a href="#top">Back to top <span aria-hidden="true">↑</span></a></footer>
+</body>
+</html>
