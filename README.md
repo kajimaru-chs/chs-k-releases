@@ -10,7 +10,7 @@ Created by **Kajimaru, YakumoRan, ZiHeLL, and Aduxxor**.
 **[Download the map](https://kajimaru-chs.github.io/chs-k-releases/)**
 
 The K Edition website provides direct map downloads and full changelogs for
-**official releases only**. K1.5.1 is the current official release.
+**official releases only**. K1.6 is the current official release.
 Testing candidates are not listed on the website.
 
 ## Install the map
