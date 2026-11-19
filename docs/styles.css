@@ -6,3 +6,5 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.button{transition:none}}
 
 .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+
+.changelog li>ul{margin:6px 0 16px;padding-left:22px}.changelog li>ul li{margin:4px 0}.changelog .hero-name{font-size:14px;font-weight:700}
